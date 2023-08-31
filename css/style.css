@@ -26,9 +26,7 @@
     flex-wrap: nowrap;
     justify-content: space-between
 }
-.navbar{
-    background: none;
-}
+
 /* MAIN INDEX */
 
 #main-index {
@@ -164,5 +162,8 @@ h1 {
 /*MOBILE LAST*/
 
 @media (min-width: 1200px) {
+}
+@media (min-width:950px){
   
 }
+
