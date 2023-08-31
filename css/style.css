@@ -12,37 +12,23 @@
 }
 .header div {
   display: flex;
-  flex-direction: column-reverse;
-  padding: 30px 0;
+ 
   max-width: 900px;
   max-height: 200vh;
   margin: auto;
-  align-items: center;
+ 
 }
 
 .header img {
-  width: 250px;
+  width: 25%;
 }
-
-.nav {
-  text-transform: uppercase;
-  padding: 7px;
+.header div{
+    flex-wrap: nowrap;
+    justify-content: space-between
 }
-
-.nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
+.navbar{
+    background: none;
 }
-.nav li {
-  margin: 0 20px;
-}
-
-.nav a {
-  color: #a00606;
-  text-decoration: none;
-}
-
 /* MAIN INDEX */
 
 #main-index {
