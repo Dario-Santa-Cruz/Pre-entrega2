@@ -6,6 +6,7 @@
 }
 
 /* HEADER */
+
 .header{
     box-shadow: 1px 8px 10px  6px;
 }
@@ -48,14 +49,13 @@
     font-family: sans-serif;
     max-width: 1050px;
     margin: auto;
-    
+    background-color: #532c04;
     display: grid; 
     grid-template-columns: 100%; 
     grid-template-areas: 
-      "titular banana"
-      "noticia banana"
-      "noticia ."
-      "noticia ."; 
+      "titular "
+      "carousel "
+      ; 
 }
 
 .inicio h1{
@@ -76,9 +76,9 @@
 }
 .inicio div{
     color: white;
-    background-color: peru;
-    border-radius: 15px;
+    background-color: #ce8740;
     max-width: 1050px;
+    box-shadow: -3px 2px 13px 6px black;
 }
 .parrafo{
     display: grid;
@@ -93,10 +93,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.noticia{
-    grid-area: noticia;
+.carousel{
+    grid-area: carousel;
 }
-
+.carousel-item{
+    max-width: max-content;
+}
+.carousel p{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
 #main-index h1{
     margin: 20px 0;
     
@@ -142,10 +151,8 @@
     #main-index {
         grid-template-columns: 100%; 
         grid-template-areas: 
-          "titular"
-          "noticia"
-          "noticia"
-          "banana"
-          "banana"; 
+          "inicio"
+          "carousel"
+          
     }
 }
