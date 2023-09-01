@@ -2,41 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dulce Pan</title>
     <link rel="stylesheet" href="../css/style.css">
-    <title>Interesante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
-<body>
-
+<body class="pagina">
     <!-- Encabezado -->
-    <header>
+    <header class="header">
         <!-- Logo -->
-        <img src="../recursos/logo-periodismo.webp" alt="Logo de Periodismo.com">
-
-        <!-- Navegacion -->
-        <nav class="nav">
-            <!-- Lista no ordenada -->
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./mayorista.html">Mayorista</a></li>
-            </ul>
-        </nav>
+        <div>
+            <a href="../index.html"><img src="../recursos/logo.png" alt="Logo Panaderia"></a>
+            <!-- Navegacion -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="../section/productos.html">Productos</a>
+                            <a class="nav-link" href="../section/nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="../section/mayorista.html">Mayorista</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h1>Proximamente</h1>
+    <!-- Contenido Principal -->
+    <main id="main-index">
+        <h1>Ya nos conocés. Por eso nos elegís a diario.</h1>
+        <p>Sos uno de los miles de correntinos que desde nuestros comienzos, en 1998, nos eligen para llevar productos
+            de calidad a sus mesas.
+
+            Sabes que combinamos las mejores materias primas, te brindamos un servicio de atención diferencial y el
+            mejor precio del mercado. Sabes de la calidad de nuestros panificados, por eso llevas nuestro pan a tu mesa
+            y nuestras facturas o chipacitos para compartir en las rondas de mate. Sabes que las carnes son tiernas y de
+            extraordinario sabor, y representan el verdadero sabor argentino. Por eso las elegís para los asados de cada
+            domingo. Sabes que contás con nosotros siempre, que estamos cerca, porque nos encontrás en alguna de
+            nuestras 10 sucursales.
+
+            Sabes que te brindamos atención personalizada en cada sector, porque queremos siempre mejorar los tiempos de
+            espera para asegurarte una compra ágil y eficiente.</p>
+        <h1>Vos sabes por qué nos elegís. Nosotros te contamos porque nos vas a seguir eligiendo.</h1>
+        <p>Porque vamos a seguir elaborando nuestros panificados en el día y con las mejores materias primas para
+            garantizar una calidad superior. Y nuestros panaderos experimentados seguirán supervisando cada instancia
+            del proceso aportando todo su conocimiento y experiencia. Porque queremos seguir incorporando tecnología, no
+            sólo para optimizar aún más nuestros tiempos y costos, sino también para seguir alivianando el trabajo de
+            nuestro capital humano y continuar generando un ambiente laboral seguro y confiable. Porque para nosotros,
+            cada trabajador es pilar fundamental en nuestro crecimiento y por eso acompañamos y fomentamos su desarrollo
+            junto con la empresa, haciéndolos sentir parte de esta gran familia. Porque te seguiremos atendiendo mejor
+            que en cualquier otro lugar. Continuaremos promoviendo la cordialidad, honradez y respeto en las relaciones
+            con clientes, proveedores y colaboradores.
+
+            Este el único camino que los líderes deben transitar. Y mantener el liderazgo en la industria de elaboración
+            de panificados y comercialización de carnes es nuestra meta. Para alcanzarla trabajamos día a día.</p>
+        <h1>¡Por eso seguimos invirtiendo!</h1>
+        <p>Queremos ofrecerte más productos de La Reina y que los encuentres cada vez más cerca. Por eso construimos una
+            Planta Industrial única en el Nordeste, por la inversión en infraestructura y equipamiento. Allí ampliamos
+            nuestra capacidad de producción y sumamos la elaboración de discos de pasta fresca para empanadas, tartas y
+            pastelitos.
+
+            La planta está ubicada en Ruta Nac. Nº 12 Km. 1.028; fue edificada sobre un terreno de 26.000 metros
+            cuadrados y tiene una superficie construida de 3.600 m2.
+
+            Con una capacidad de producción diaria de 45.000 kg de harina y una flota de vehículos propios para el
+            reparto, estos productos también van a llegar a tu mesa.</p>
+        <h2>Trabajamos día a día para ofrecer productos frescos y de calidad a nuestros clientes.</h2>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>Copyright © 1997-2023 DataPress Multimedia - Director: Diego Rottman</p>
-        <p>Permitida su reproducción solicitando autorización</p>
-    </footer>
+        <div>
+            <a href="../index.html"><img src="../recursos/logo.png" alt="Logo Panaderia"></a>
+            <p>Trabaja con Nosotros
+                Presenta tu CV en Av Dean Funes 455
+                <br>Lunes a Sábado de 7 a 10hs y de 17 a 19hs.
+                <br>/ Tel: +54123456789
+                <br> o por nuestras redes sociales
+            </p>
 
+        </div>
+        <div class="redes">
+            <a href="#">
+                <img src="../recursos/instagram.png" alt="logo instagram">
+            </a>
+            <a href="#">
+                <img src="../recursos/facebook.png" alt="logo facebook">
+            </a>
+            <a href="#">
+                <img src="../recursos/whatsapp.png" alt="logo whatsapp">
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

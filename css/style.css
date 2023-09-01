@@ -8,11 +8,11 @@
 /* HEADER */
 
 .header {
+  display: flex;
   box-shadow: 1px 8px 10px 6px;
 }
 .header div {
   display: flex;
- 
   max-width: 900px;
   max-height: 200vh;
   margin: auto;
@@ -161,9 +161,7 @@ h1 {
 
 /*MOBILE LAST*/
 
+  
+
 @media (min-width: 1200px) {
 }
-@media (min-width:950px){
-  
-}
-
