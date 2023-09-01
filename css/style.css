@@ -16,15 +16,26 @@
   max-width: 900px;
   max-height: 200vh;
   margin: auto;
- 
 }
 
 .header img {
   width: 25%;
 }
-.header div{
-    flex-wrap: nowrap;
-    justify-content: space-between
+.header div {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.navbar a {
+  font-size: 10 px;
+  color: black;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20px;
+}
+.navbar .navbar-expand-lg {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* MAIN INDEX */
@@ -97,12 +108,12 @@ h1 {
   font-size: 2.5rem;
 }
 
-.container-img a{
-    display: flex;
-    max-width: 400px;
-    align-content: center;
-    margin: auto;
-    flex-direction: column
+.container-img a {
+  display: flex;
+  max-width: 400px;
+  align-content: center;
+  margin: auto;
+  flex-direction: column;
 }
 #main-index h1 {
   margin: 20px 0;
@@ -137,31 +148,79 @@ h1 {
 /* FOOTER */
 
 .footer {
-
   background-color: #000000;
   color: #ffffff;
   text-align: center;
   padding: 30px;
   font-family: "Montserrat", sans-serif;
 }
-.footer a img{
-    display: flex;
-    max-width: 10%;
-    max-height: 10%;
-    
+.footer a img {
+  display: flex;
+  max-width: 10%;
+  max-height: 10%;
 }
-.footer .redes img{
-    display: inline;
-    max-width: 50px;
-    max-height: 50 px;
-    margin: 0 30px;
-    box-shadow:-3px 4px 2px 0px #ffffff;
-    border-radius: 2px;
+.footer .redes img {
+  display: inline;
+  max-width: 50px;
+  max-height: 50 px;
+  margin: 0 30px;
+  box-shadow: -3px 4px 2px 0px #ffffff;
+  border-radius: 2px;
 }
 
 /*MOBILE LAST*/
-
-  
-
-@media (min-width: 1200px) {
+/* 1 */
+@media (max-width: 320px ) {
+  .inicio h1 {
+    font-size: 20px;
+  }
+  .footer .redes img{
+    width: 25%;
+    margin: 10px 10px 10px
+  }
+  .footer a img {
+    display: flex;
+    max-width: 25%;
+    margin-left: 100vw;
+  }
+  .header img{
+    width: 25vw
+  }
 }
+/* 2 */
+@media (max-width: 375px ) {
+  .inicio h1 {
+   font-size: 20px;
+ }
+ .footer .redes img{
+  width: 25%;
+  margin: 10px 10px 10px
+}
+.footer a img {
+  display: flex;
+  max-width: 25%;
+  margin-left: 80vw;
+}
+.header img{
+  width: 25vw
+}
+}
+/* 3 */
+@media (max-width: 425px ) {
+  .inicio h1 {
+   font-size: 20px;
+ }
+ .footer .redes img{
+  width: 25%;
+  margin: 10px 10px 10px
+}
+.footer a img {
+  display: flex;
+  max-width: 25%;
+  margin-left: 32vw;
+}
+.header img{
+  width: 25vw
+}
+}
+
