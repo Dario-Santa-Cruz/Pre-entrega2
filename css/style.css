@@ -157,7 +157,7 @@ h1 {
 .footer a img {
   display: flex;
   max-width: 10%;
-  max-height: 10%;
+  margin-left: 42vw;
 }
 .footer .redes img {
   display: inline;
@@ -167,6 +167,68 @@ h1 {
   box-shadow: -3px 4px 2px 0px #ffffff;
   border-radius: 2px;
 }
+.main-nosotros{
+  font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  max-width: 1140px;
+  margin:auto
+}
+.main-nosotros{
+  background-color: peru;
+}
+.main-nosotros h1{
+  font-size: 30px;
+  margin: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color:#532c04;
+  color:white;
+}
+.main-nosotros h1:hover{
+  box-shadow: -3px 2px 13px 6px black;
+  transition: all 0.3s;
+  transform: scale(1.03);
+}
+.main-nosotros h1{
+  border-radius: 15px;
+}
+
+.main-nosotros p{
+  text-align: center;
+  font-size: 16px;
+  margin: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color:#eb841d;
+  color:white;
+  border-radius: 15px;
+}
+.main-nosotros p:hover{
+  box-shadow: -3px 2px 13px 6px black;
+  transition: all 0.3s;
+  transform: scale(1.03);
+}
+.main-nosotros h2{
+  text-align: center;
+  font-size: 16px;
+  margin: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color:hsl(54, 100%, 35%);
+  color:white;
+  border-radius: 15px;
+  
+}
+.main-nosotros h2:hover{
+  transition: all 0.3s;
+  transform: scale(1.03);
+  box-shadow:-3px 2px 13px 6px black;
+}
+
 
 /*MOBILE LAST*/
 /* 1 */
@@ -186,7 +248,27 @@ h1 {
   .header img{
     width: 25vw
   }
+  .main-nosotros h1{
+    text-align: center;
+    font-size: 15px;
+    width: 75vw;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .main-nosotros p{
+    border-radius: 5px;
+    text-align: center;
+    width: 75vw;
+  }
+  .main-nosotros h2{
+    border-radius: 5px;
+    text-align: center;
+    width: 75vw;
+  }
 }
+
+
 /* 2 */
 @media (max-width: 375px ) {
   .inicio h1 {
