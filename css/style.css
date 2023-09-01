@@ -228,6 +228,82 @@ h1 {
   transform: scale(1.03);
   box-shadow:-3px 2px 13px 6px black;
 }
+.container-card1{
+   
+    display: grid;
+    border-radius: 15px;
+    max-width: 1140px;
+    margin: auto;
+    background-color: #6f3e0e;
+    margin-top: 20px;
+    color: white;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+  
+
+.container-card1 img{
+  border-radius: 15px;
+}
+.container-card1 .card-body{
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-card1 .card1:hover{
+  box-shadow:-3px 2px 13px 6px white;
+  transition: all 0.3s;
+  transform: scale(1.03);
+  border-radius: 15px;
+}
+.container-card1 .card2:hover{
+  box-shadow:-3px 2px 13px 6px white;
+  transition: all 0.3s;
+  transform: scale(1.03);
+  border-radius: 15px;
+}
+
+.containercard2{
+  display: grid;
+    border-radius: 15px;
+    max-width: 1140px;
+    margin: auto;
+    background-color: #6f3e0e;
+    margin-top: 20px;
+    color: white;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    margin-bottom: 20px;
+    
+}
+.containercard2{
+  font-family: "Montserrat", sans-serif;
+}
+.containercard2 img{
+  border-radius: 15px;
+  margin-top: 30px;
+  
+}
+.containercard2 .card3:hover{
+  box-shadow:-3px 2px 13px 6px white;
+  transition: all 0.3s;
+  transform: scale(1.03);
+  border-radius: 15px;
+}
+.containercard2 .card4:hover{
+  box-shadow:-3px 2px 13px 6px white;
+  transition: all 0.3s;
+  transform: scale(1.03);
+  border-radius: 15px;
+  
+}
+.containercard2 .card3 img{
+  height: 200px
+  
+}
+.card4 img{
+  height: 200px
+}
+
 
 
 /*MOBILE LAST*/
@@ -265,6 +341,9 @@ h1 {
     border-radius: 5px;
     text-align: center;
     width: 75vw;
+  }
+  .container-card1{
+    
   }
 }
 
